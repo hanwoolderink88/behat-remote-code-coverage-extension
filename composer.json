@@ -1,15 +1,15 @@
 {
-    "name": "matthiasnoback/behat-remote-code-coverage-extension",
-    "license": "MIT",
-    "require": {
-        "php": ">=7.0",
-        "behat/behat": "^3.0",
-        "matthiasnoback/live-code-coverage": "^1.0",
-        "behat/mink-extension": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "": "src/"
-        }
+  "name": "matthiasnoback/behat-remote-code-coverage-extension",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0|^8.0",
+    "behat/behat": "^3.0",
+    "matthiasnoback/live-code-coverage": "^1.0",
+    "behat/mink-extension": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
     }
+  }
 }
